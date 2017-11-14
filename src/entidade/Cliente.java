@@ -288,6 +288,6 @@ public class Cliente implements Serializable {
      * @return uma nova instancia do objeto cliente com os mesmos dados
      */
     public Cliente copia() {
-        return new Cliente(getClienteId(), getNome(), getCpf());
+        return new Cliente(getClienteId(), getNome()+"_1", getCpf());
     }
 }
