@@ -68,7 +68,7 @@ public class SocketServidor {
     }
 
     /**
-     * Escreve no log ou na saida default
+     * Escreve no log ou na saída default
      *
      * @param mensagem Mensagem a ser exibida
      */

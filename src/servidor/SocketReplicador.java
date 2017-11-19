@@ -54,7 +54,7 @@ public class SocketReplicador implements Runnable {
                             //Retorna uma copia do cliente os dados alterados
                             Cliente copia = cliente.copia();
                             saida.writeObject(copia); //escreve uma copia no socket
-                            saida.flush(); //limpa a saida
+                            saida.flush(); //limpa a saída
                         }
                     }
                 }

@@ -55,7 +55,7 @@ public class RMIServidor {
     }
     
     /**
-     * Escreve no log ou na saida default
+     * Escreve no log ou na saída default
      * @param mensagem Mensagem a ser exibida
      */
     public void escreveLog(String mensagem){
@@ -175,7 +175,7 @@ public class RMIServidor {
 
     /**
      * Mostra os dados armazenados
-     * @param mensagem mensagem a contatenada na saida do relatório
+     * @param mensagem mensagem a contatenada na saída do relatório
      * @param clienteDAO objeto que contêm os dados
      */
     public void mostrarDadosArmazenados(String mensagem, ClienteDAO clienteDAO) {
